@@ -1,0 +1,1 @@
+.\lib\exiftool -DateTimeOriginal="2015:03:16 22:11:12" -CreateDate="2015:03:16 22:11:12" ".\input\P50316-221112.jpg"

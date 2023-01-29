@@ -1,0 +1,10 @@
+Server:
+
+https://www.softwareok.de/?Download=NewFileTime
+https://www.softwareok.com/?Download=NewFileTime
+https://www.softwareok.eu/?Download=NewFileTime
+
+http://www.softwareok.de/?Download=NewFileTime
+http://www.softwareok.com/?Download=NewFileTime
+http://www.softwareok.eu/?Download=NewFileTime
+
