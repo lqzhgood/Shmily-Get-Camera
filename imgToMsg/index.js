@@ -78,7 +78,7 @@ async function pToMsg(arr) {
             html: m.html,
 
             $Camera: {
-                exif,
+                data: { exif },
             },
         };
         msgArr.push(msg);
