@@ -8,7 +8,7 @@
 
 0. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
 1. 修改图片文件名
-   各类设备产生的照片文件名并不一致, 大部分文件名并不包含时间信息, 但是 修改时间 / exif 信息极易被丢失, 最终导致无法按时间排序, 所以标准化文件名很重要, 文件名称将被标准化为 `YYYY-MM-DD HH-mm-ss [文件MD5前6位] & [原文件名].jpg`
+   各类设备产生的照片文件名并不一致, 大部分文件名并不包含时间信息, 但是 修改时间 / exif 信息极易被丢失, 最终导致无法按时间排序, 所以标准化文件名很重要, 文件名称将被标准化为 `YYYY-MM-DD HH-mm-ss [文件 MD5 前 6 位] & [原文件名].jpg`
 
     - 打开命令行 切换到 utf-8 编码
     - 通过命令行进入 `imgReName` 文件夹
@@ -38,3 +38,12 @@
 #### rename
 
 递归文件夹, 将 match 的文件名中 `_` 修改为 `-`
+
+
+## 感谢
+
+http://lqzhgood.github.io/Shmily/guide/other/thanks.html
+
+## 捐赠
+
+点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
