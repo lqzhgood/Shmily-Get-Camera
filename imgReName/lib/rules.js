@@ -164,6 +164,15 @@ const rules = [
         format: 'YYYY-MM-DD HH:mm:ss:SSS',
     },
     {
+        tmp: ["da_1592912979897.jpeg"],
+        reg: R(`da_${timestamp}`),
+        get: (n) =>
+            dayjs(Number(n.match(/\d{13}$/)[0])).format(
+                "YYYY-MM-DD HH:mm:ss:SSS"
+            ),
+        format: "YYYY-MM-DD HH:mm:ss:SSS",
+    },
+    {
         tmp: ['wx_camera_1544502602122.mp4'],
         reg: R(`wx_camera_${timestamp}`),
         get: n => dayjs(Number(n.match(/\d{13}$/)[0])).format('YYYY-MM-DD HH:mm:ss:SSS'),
